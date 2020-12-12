@@ -1,0 +1,31 @@
+* {
+    font-family: 'Emilys Candy', cursive;  
+    background-color: #F4D58D;
+}
+
+.bubble_menu{
+    text-align:center
+  }
+  
+  .bubble_menu button {
+    background-color: #3BCEAC;
+    border: none;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    font-size: 20px;
+    height: 150px;
+    width: 150px;
+    margin: 10px 10px;
+    color: #000000;
+    border-radius: 50%;
+  }
+  .button:hover {
+    background-color: #000000; 
+    color: #f2f2f2;
+  }
+
+  h1, h2, p{
+    text-align:center
+  }

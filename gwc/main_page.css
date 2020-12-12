@@ -1,0 +1,117 @@
+* {
+    font-family: 'Emilys Candy', cursive;  
+    background-color: #F4D58D;
+}
+
+
+.bubble_menu{
+  text-align:center
+}
+
+.bubble_menu button {
+  background-color: #3BCEAC;
+  border: none;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  /*display: inline-block;*/
+  font-size: 20px;
+  height: 150px;
+  width: 150px;
+  margin: 10px 10px;
+  color: #000000;
+  border-radius: 50%;
+}
+.button:hover {
+  background-color: #000000; 
+  color: #f2f2f2;
+}
+
+
+h1, h2, p{
+  text-align:center
+}
+
+  /* Position the image container (needed to position the left and right arrows) */
+.container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+  .footer{
+    text-align: center;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
